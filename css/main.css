@@ -123,7 +123,7 @@ nav #accordion{
   background: -o-radial-gradient(25% 25%, farthest-corner,#ccffaa,#acef9a,#9ccf8a,#8cc677); /* For Opera 11.6 to 12.0 */
   background: -moz-radial-gradient(25% 25%, farthest-corner,#ccffaa,#acef9a,#9ccf8a,#8cc677); /* For Firefox 3.6 to 15 */
   background: radial-gradient(farthest-corner at 25% 25% ,#ccffaa,#acef9a,#9ccf8a,#8cc677);
-  height:100%;
+  height:250px;
 }
 
 main {
@@ -137,7 +137,7 @@ main {
     margin:0;
 }
 
-.colourButtons li, .colorTools li, , .colorTools li a{
+.colourButtons li, .colorTools li, .colorTools li a{
   list-style-type: none;
   display: inline-block;
   margin:0;
