@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Colour Me !</title>
+  <link rel="stylesheet" href="js/jQuery/jquery-ui.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <script src="js/jQuery/jquery-3.2.1.min.js"></script>
+  <script src="js/jQuery/jquery-ui.min.js"></script>
+  <script src="js/main.js"></script>
+</head>
+<body>
+  <div id="wrapper">
+    <header>
+        <div class="header">
+          <h1>रंग भरें |</h1>
+          <img src="img/logo.png" alt="" />
+          <div class=menu>
+              <a href="javascript:void(0);" onclick="showAccordionMenu()">&#9776;</a>
+          </div>
+        </div>
+
+    </header>
+    <nav>
+      <div id="accordion">
+        <h3>तीर्थंकर प्रभु</h3>
+        <div class="flex-container">
+          <a href="#" onClick="ShowContent(event, this.innerHTML, '/svg/1/fish.svg')">श्री आदिनाथ जी</a>
+          <a href="#" >श्री अजितनाथ जी</a>
+          <a href="#" >देव दर्शन पूजा</a>
+          <a href="#" >देव दर्शन पूजा</a>
+          <a href="#" >देव दर्शन पूजा</a>
+          <a href="#" >देव दर्शन पूजा</a>
+          <a href="#" >देव दर्शन पूजा</a>
+          <a href="#" >देव दर्शन पूजा</a>
+          <a href="#" >देव दर्शन पूजा</a>
+          <a href="#" >देव दर्शन पूजा</a>
+          <a href="#" >देव दर्शन पूजा</a>
+          <a href="#" >देव दर्शन पूजा</a>
+          <a href="#" >देव दर्शन पूजा</a>
+          <a href="#" >देव दर्शन पूजा</a>
+        </div>
+        <h3>माता के सोलह स्वपन</h3>
+        <div class="flex-container">
+          <a href="#" onClick="ShowContent(event, this.innerHTML, '/content/pooja/test')">सुमेरु पर्वत</a>
+          <a href="#" >देव दर्शन पूजा</a>
+          <a href="#" >देव दर्शन पूजा</a>
+          <a href="#" >देव दर्शन पूजा</a>
+          <a href="#" >देव दर्शन पूजा</a>
+          <a href="#" >देव दर्शन पूजा</a>
+          <a href="#" >देव दर्शन पूजा</a>
+          <a href="#" >देव दर्शन पूजा</a>
+          <a href="#" >देव दर्शन पूजा</a>
+          <a href="#" >देव दर्शन पूजा</a>
+          <a href="#" >देव दर्शन पूजा</a>
+          <a href="#" >देव दर्शन पूजा</a>
+          <a href="#" >देव दर्शन पूजा</a>
+          <a href="#" >देव दर्शन पूजा</a>
+        </div>
+        <h3>अष्ट मंगल</h3>
+        <div class="flex-container">
+          <a href="#" onClick="ShowContent(event, this.innerHTML, '/content/pooja/test')">कलश</a>
+          <a href="#" >चँवर</a>
+          <a href="#" >देव दर्शन पूजा</a>
+          <a href="#" >देव दर्शन पूजा</a>
+          <a href="#" >देव दर्शन पूजा</a>
+          <a href="#" >देव दर्शन पूजा</a>
+          <a href="#" >देव दर्शन पूजा</a>
+          <a href="#" >देव दर्शन पूजा</a>
+          <a href="#" >देव दर्शन पूजा</a>
+          <a href="#" >देव दर्शन पूजा</a>
+          <a href="#" >देव दर्शन पूजा</a>
+          <a href="#" >देव दर्शन पूजा</a>
+          <a href="#" >देव दर्शन पूजा</a>
+          <a href="#" >देव दर्शन पूजा</a>
+        </div>
+      </div>
+
+    </nav>
+    <main id="mainContent">
+        <article>
+            <h1 id="contentTitle">Article #1</h1>
+            <section id="colorPalette">
+                <ul class="colourButtons">
+                    <li>
+                        <button style="background-color:red"></button>
+                    </li>
+                    <li>
+                        <button style="background-color:pink"></button>
+                    </li>
+                    <li>
+                        <button style="background-color:orange"></button>
+                    </li>
+                    <li>
+                        <button style="background-color:yellow"></button>
+                    </li>
+                    <li>
+                        <button style="background-color:lightblue"></button>
+                    </li>
+                    <li>
+                        <button style="background-color:blue"></button>
+                    </li>
+                    <li>
+                        <button style="background-color:green"></button>
+                    </li>
+                    <li>
+                        <button style="background-color:purple"></button>
+                    </li>
+                    <li>
+                        <button style="background-color:brown"></button>
+                    </li>
+                    <li>
+                        <button style="background-color:grey"></button>
+                    </li>
+                    <li>
+                        <button style="background-color:white"></button>
+                    </li>
+                    <li>
+                        <button style="background-color:black"></button>
+                    </li>
+                </ul>
+            </section>
+            <section id="contentText">
+                This is the first article.
+            </section>
+
+            <section id="colorTools">
+                  <ul class="colorTools">
+                      <li>
+                          <a class="undo"><img src="img/undo.png"></a>
+                      </li>
+                      <li>
+                          <a class="reset"><img src="img/reset.png"></a>
+                      </li>
+                  </ul>
+            </section>
+        </article>
+    </main>
+
+    <!-- <footer>Developed By: ASHISH JAIN (Model Town)</footer> -->
+  </div>
+</body>
+</html>
